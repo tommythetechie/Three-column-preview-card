@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 16px;
+    background-color: hsl(0, 0%, 95%);
+}
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+}
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 24px;
+}
+.wrapper {
+    max-width: 375px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 400px 400px 400px;
+}
+.box {
+    padding: 46px;
+}
+.orange {
+    background-color: hsl(31, 77%, 52%);
+}
+.blue {
+    background-color: hsl(184, 100%, 22%);
+}
+.green {
+    background-color: hsl(179, 100%, 13%);
+}
+.orangeButton {
+    color: hsl(31, 77%, 52%);
+}
+.blueButton {
+    color: hsl(184, 100%, 22%);
+}
+.greenButton {
+    color: hsl(179, 100%, 13%);
+}
+button {
+    margin-top: 20px;;
+    padding: 16px 44px;
+    border-radius: 28px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+
+
+
